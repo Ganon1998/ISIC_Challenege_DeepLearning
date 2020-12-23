@@ -123,4 +123,4 @@ plot_roc(test_labels, test_gen)
 model.evaluate(validation_gen, verbose=2)
 model.evaluate(test_gen, verbose=2)
 
-model.save_weights('saved_model')
+model.save_weights('saved_model/')
